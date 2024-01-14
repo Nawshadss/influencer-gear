@@ -192,3 +192,36 @@ main h1 {
   align-items: center;
   display: flex;
 }
+
+/* footer */
+footer {
+  background: #0a0826;
+  height: 306px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h1 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footContainer p {
+  text-align: center;
+  color: #d9dbe1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 10px;
+}
