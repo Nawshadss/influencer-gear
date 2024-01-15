@@ -225,3 +225,75 @@ footer h1 {
   gap: 2rem;
   margin: 10px;
 }
+
+.seemore {
+  display: flex;
+  justify-content: end;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    margin: none;
+    padding: none;
+  }
+  header {
+    padding: 5px 1px;
+  }
+  nav {
+    justify-content: center;
+  }
+  ul {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .left-side {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side h1 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .left-side p {
+    text-align: center;
+  }
+  .right-image img {
+    width: 100%;
+  }
+  main {
+    margin: none;
+  }
+  /* companys */
+
+  .comapnys {
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px 20px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+    margin: none;
+    padding: 5px 20px;
+  }
+  .feture-img img {
+    width: 100%;
+  }
+}
